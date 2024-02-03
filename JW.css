@@ -1,0 +1,229 @@
+*{
+    background-color: rgb(253, 245, 223);
+    padding: 0%;
+    margin: 0%;
+    margin-top: 5px;
+    
+}
+
+
+/* HEADER */
+.ul1_li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav2{
+    height: 0px;
+    width: 100%;
+}
+.ul2_li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+    letter-spacing: 5px;
+    margin-top: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    cursor: pointer;
+    position: relative;
+}
+
+.link:after{
+    content: "";
+    position: absolute;
+    background-color: #fbd500;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.link:hover{
+    color: #3e1919;
+}
+.link:hover:after{
+    width: 100%;
+}
+
+
+
+/* MAIN */
+#rye_text{
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+    position: absolute;
+
+}
+.button{
+    margin-left: 1100px;
+    position: absolute;
+    margin-top: 200px;
+}
+#Johnnie_Walker_Core_Range{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 350px;
+    cursor: pointer;
+    width:500px;
+    position: absolute;
+
+}
+.our_whiskey{
+    margin-top: 0px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+#red:hover{
+    color: rgb(183, 3, 50);
+}
+#black:hover{
+    font-weight: bolder;
+}
+#double_black:hover{
+    font-weight: bolder;
+}
+
+#blonde:hover{
+    color: rgb(249, 200, 22);
+}
+#gold:hover{
+   color: #fab260;
+}
+#green:hover{
+    color: rgb(67, 105, 91);
+}
+#blue:hover{
+    color: rgb(12, 99, 175);
+}
+.videos{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 550px;
+    
+}
+.text{
+    margin-top: 220px;
+
+}
+#classic_cocktails{
+    margin-top: 900px;
+    width: 100%;
+   
+}
+
+#display{
+    margin-top: 70px;
+    box-shadow: 2px 2px 15px;
+    position: absolute;
+}
+
+.cocktail_image{
+    
+    height: 300px;
+    width: 300px;
+
+}
+.all_cocktails{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 700px;
+    
+    
+}
+.all_text{
+    display: flex;
+    justify-content: space-between;
+}
+#old-fashioned_text{
+    margin-left: 220px;
+    font-weight: bold;
+}
+#penicillin_text{
+    margin-right: 0px;
+    font-weight: bold;
+}
+#whisky-sour_text{
+    margin-right: 220px;
+    font-weight: bold;
+}
+#old-fashioned:hover{
+    box-shadow: 1px 1px 5px rgb(112, 73, 1);
+    cursor: pointer;
+
+}
+#penicillin:hover{
+    box-shadow: 1px 1px 5px rgb(112, 73, 1);
+    cursor: pointer;
+
+}
+#whisky-sour:hover{
+    box-shadow: 1px 1px 5px rgb(112, 73, 1);
+    cursor: pointer;
+
+
+}
+#whisky_guide_image{
+    margin-top: 100px;
+}
+.scotches_image{
+    
+    height: 300px;
+    width: 300px;
+
+}
+.different_scotches{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    
+}
+.different_scotches_text{
+    display: flex;
+    justify-content: space-between;
+}
+#single-malt_text{
+    margin-left: 130px;
+    width: 300px;
+}
+#grain_text{
+    margin-right: 0px;
+    width: 300px;
+    
+}
+#blended_text{
+    margin-right: 130px;
+    width: 300px;
+}
+#single-malt:hover{
+    box-shadow: 1px 1px 5px rgb(112, 73, 1);
+    cursor: pointer;
+
+}
+#grain:hover{
+    box-shadow: 1px 1px 5px rgb(112, 73, 1);
+    cursor: pointer;
+
+}
+#blended:hover{
+    box-shadow: 1px 1px 5px rgb(112, 73, 1);
+    cursor: pointer;
+
+
+}
